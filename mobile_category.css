@@ -91,7 +91,7 @@
 
 
 
-
+ 
 
 
 
@@ -109,9 +109,10 @@
     }
 
     .mobile_category h2{
-        font-size: 1rem;
+        font-size: 2rem;
         padding-left: 2rem;
         padding-right: 2rem;
+        font-weight: 600;
     }
 
     .mobile_category_container{
@@ -121,7 +122,7 @@
     
 
     .category_1 .category_img img{
-        width: 100px;
+        width: 200px;
     }
 
     .category_title{
@@ -130,11 +131,11 @@
         text-align: center;
     }
     .category_1 .category_title p{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .category_price p{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .category_button{
@@ -153,7 +154,7 @@
         padding: 10px;
         border-radius: 2rem;
         color: white;
-        font-size: 10px;
+        font-size: 12px;
     }
      
     
