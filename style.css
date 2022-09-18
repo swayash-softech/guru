@@ -15,8 +15,9 @@ body{
 
 .nav-container{
     /* background-color: black; */
-    background: rgba( 0, 0, 0, 0.9 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background-color: white;
+    /* box-shadow: 0 8px 32px 0 rgba(0, 0, 4, 0.10); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     backdrop-filter: blur( 20px );
     height: 5rem;
     z-index: 300;
@@ -39,7 +40,7 @@ nav .desktop-nav{
     list-style: none;
 }
 nav .desktop-nav li a{
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 15px;
     opacity: 0.8;
@@ -55,12 +56,12 @@ nav .desktop-nav li a:hover{
     font-weight: 500;
 }
 .link-search{
-    background: url('images/search-icon.svg');
+    background: url('images/search.svg');
     display: block;
     background-position: center;
     height: 44px;
     width: 20px;
-    background-size: 18px;
+    background-size: 20px 18px;
     background-repeat: no-repeat;
 }
 
@@ -95,12 +96,12 @@ nav .desktop-nav li a:hover{
 .search-container{
     width: 60%;
     margin: 0 auto;
-   padding: 0 42px;
-   position: fixed;
-   top: 0;
-   left: 0;
-   right: 0;
-   z-index: 200;
+    padding: 0 42px;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 200;
 }
 .search-container .link-search{
     position: absolute;
@@ -128,7 +129,7 @@ nav .desktop-nav li a:hover{
     border: 0;
     outline: none;
     background: transparent;
-    color: white;
+    color: black;
     font-family: "Inter, sans-serif";
     font-size: 17px;
 }
@@ -145,43 +146,6 @@ nav .desktop-nav li a:hover{
     z-index: 100;
 }
 
-/* quick links */
-
-.search-container .quick-links{
-    background-color: white;
-    position: absolute;
-    left: 0;
-    right: 0;
-    padding: 16px 8px;
-    border-radius: 0 0 16px 16px;
-}
-.search-container .quick-links h2{
-    text-transform: uppercase;
-    font-size: 12px;
-    color: #6a6a73;
-    margin: 0 32px;
-    margin-top: 10px;
-}
-.search-container .quick-links ul{
-    list-style: none;
-    margin-top: 12px;
-}
-.search-container .quick-links ul li a{
-    display: inline-block;
-    width: 100%;
-    padding: 8px 50px;
-    font-size: 14px;
-    color: #1d1d1f;
-    text-decoration: none;
-    font-weight: 400;
-}
-.search-container .quick-links ul li a:hover{
-    background-color: #f5f5f5;
-    color: #2997ff;
-}
-.search-bar form input{
-    font-family: "Inter,sans-serif";
-}
 
 
 /* desktop nav animation */
@@ -317,7 +281,7 @@ nav .desktop-nav li a:hover{
     width: 100%;
     margin-top: 5rem;
     height: 80vh;
-    background-image: url('images/oppo-reno-8.webp');
+    background-image: url('images/oneplus-10-pro-desktop.jfif');
     background-repeat: no-repeat;
     background-size: cover;
  }
@@ -325,26 +289,29 @@ nav .desktop-nav li a:hover{
  .latest-release-mobile-text{
      display: flex;
      flex-direction: column;
-     padding-left: 7rem;
-     padding-top: 12rem;
+     position: absolute;
+     right: 5rem;
+     margin-top: 5rem;
  }
  
  .latest-release-mobile-name p{
-     font-size: 3.3rem;
+     font-size: 5rem;
      font-weight: 700;
+     color: #96b6ab;
  }
  
  .latest-release-mobile-info p{
-     font-size: 1.6rem;
+     font-size: 2rem;
      font-weight: 500;
      margin-top: 10px;
+     color: #3d4f43;
  }
  
  .latest-release-mobile-price{
-     font-size: 1.1rem;
+     font-size: 1.5rem;
      font-weight: 700;
-     color: rgb(69, 69, 69);
-     margin-top: 5px;
+     color: #8e979d;
+     margin-top: 10px;
  }
  
  .latest-release-mobile-button{
@@ -355,7 +322,7 @@ nav .desktop-nav li a:hover{
  
  .latest-release-mobile-button .learn-more a{
      color: #1e6fbd;
-     font-size: 1.2rem;
+     font-size: 1.4rem;
      font-weight: 800;
      list-style: none;
      text-decoration: none;
@@ -363,7 +330,7 @@ nav .desktop-nav li a:hover{
  
  .latest-release-mobile-button .buy-now a{
      color: #1e6fbd;
-     font-size: 1.2rem;
+     font-size: 1.4rem;
      font-weight: 800;
      list-style: none;
      text-decoration: none;
@@ -686,7 +653,7 @@ nav .desktop-nav li a:hover{
         left: 0;
         width: 100%;
         height: 0vh;
-        background-color: black;
+        background-color: white;
         justify-content: start;
         overflow: hidden;
         z-index: -1;
@@ -741,12 +708,16 @@ nav .desktop-nav li a:hover{
         position: relative;
         width: 100%;
     }
+
+    .mobile-nav .link-logo{
+        color:black;
+    }
     nav .menu-icon .line-1,
     nav .menu-icon .line-2{
         position: absolute;
         height: 1px;
         width: 100%;
-        background-color: white;
+        background-color: black;
     }
     nav .menu-icon .line-1{
         top:-4px;
@@ -779,9 +750,9 @@ nav .desktop-nav li a:hover{
         padding: 12px 36px;
         font-family: "Inter,sans-serif";
         font-size: 17px;
-        background: #1b1b1b;
+        background:#D3D3D3;
         border: 0;
-        color: white;
+        color: black;
         border-radius: 8px;
         outline: none;
     }
@@ -840,46 +811,6 @@ nav .desktop-nav li a:hover{
         pointer-events: none;
     }
 
-      /* quick links */
-
-      .mobile-search-container .search-bar.active ~ .quick-links{
-        top: 80px;
-        opacity: 1;
-        pointer-events: auto;
-      }
-      .mobile-search-container .quick-links{
-        position: absolute;
-        right: 0;
-        left: 0;
-        padding: 0 32px;
-        opacity: 0;
-        pointer-events: none;
-        top: 10px;
-
-    }
-    .mobile-search-container .quick-links ul{
-        list-style: none;
-    }
-    .mobile-search-container .quick-links h2{
-        color: #86868b;
-        font-size: 12px;
-        text-transform: uppercase;
-        font-weight: 400;
-    }
-    .mobile-search-container .quick-links ul li a{
-        padding: 16px 0;
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        font-size: 14px;
-        font-weight: 400;
-        border-bottom: 1px solid #616161;
-        width: 100%;
-    }
-    .mobile-search-container .quick-links ul li a:hover{
-        color: #2997ff;
-    }
-
 
 
 
@@ -887,21 +818,21 @@ nav .desktop-nav li a:hover{
 .latest-release{
     width: 100%;
     margin-top: 5rem;
-    background-image: url('images/oppo-reno-8.webp');
+    background-image: url('images/oneplus-10-pro-mobile.webp');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 50vh;
+    height: 100vh;
  }
  
  .latest-release-mobile-text{
      display: flex;
      flex-direction: column;
-     padding-left: 1rem;
-     padding-top: 4rem;
+     justify-content: center;
+     padding-left: 2rem;
  }
  
  .latest-release-mobile-name p{
-     font-size: 2.5rem;
+     font-size: 4.5rem;
      font-weight: 700;
  }
  
@@ -909,6 +840,7 @@ nav .desktop-nav li a:hover{
      font-size: 1.5rem;
      font-weight: 500;
      margin-top: 10px;
+     color: #3d4f43;
  }
  
  .latest-release-mobile-price{
@@ -946,10 +878,10 @@ nav .desktop-nav li a:hover{
  .latest-release1{
     width: 100%;
     margin-top: 1rem;
-    height: 80vh;
-    background-image: url('images/s22-ultra.jpg');
+    height: 100vh;
+    background-image: url('images/s22-mobile.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: right;
  }
  
@@ -957,18 +889,19 @@ nav .desktop-nav li a:hover{
      display: flex;
      flex-direction: column;
      padding-left: 1rem;
-     padding-top: 1rem;
  }
  
  .latest-release-mobile-name1 p{
-     font-size: 2.5rem;
+     font-size: 3.5rem;
      font-weight: 700;
+     color: #eaeaea;
  }
  
  .latest-release-mobile-info1 p{
      font-size: 1.6rem;
      font-weight: 500;
      margin-top: 10px;
+     color: #2a2f33;
  }
  
  .latest-release-mobile-price1{
