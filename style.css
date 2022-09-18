@@ -14,7 +14,6 @@ body{
 /* Desktop nav */
 
 .nav-container{
-    /* background-color: black; */
     background-color: white;
     /* box-shadow: 0 8px 32px 0 rgba(0, 0, 4, 0.10); */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -51,7 +50,7 @@ nav .desktop-nav li a:hover{
 }
 .mobile-nav .link-logo{
     color: #f5f5f5;
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-decoration: none;
     font-weight: 500;
 }
@@ -889,6 +888,7 @@ nav .desktop-nav li a:hover{
      display: flex;
      flex-direction: column;
      padding-left: 1rem;
+     padding-top: 5rem;
  }
  
  .latest-release-mobile-name1 p{
@@ -938,15 +938,12 @@ nav .desktop-nav li a:hover{
 
 
  
+ 
   /* mobile categories */
  
   .mobile-categories{
-    width: 100%;
-    margin-top: 1rem;
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap: 2rem;
-    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
  }
 
  .category-1{
@@ -958,7 +955,7 @@ nav .desktop-nav li a:hover{
  }
 
  .category-1 .category-1-logo img{
-    width: 200px;
+    width: 170px;
     margin-top: 30px;
  }
 
@@ -986,8 +983,10 @@ nav .desktop-nav li a:hover{
 
 
  .category-1 .category-1-image img{
-    width: 400px;
+    width: 350px;
  }
+
+
 
  .category-2{
     display: flex;
@@ -998,14 +997,13 @@ nav .desktop-nav li a:hover{
  }
 
  .category-2 .category-2-logo img{
-    width: 200px;
+    width: 170px;
     margin-top: 30px;
  }
 
  .category-2-tagline{
     margin-top: 1rem;
     color: #f5f5f5;
-    font-size: 10px;
  }
 
  .categroy-2-button{
@@ -1028,7 +1026,7 @@ nav .desktop-nav li a:hover{
 
 
  .category-2 .category-2-image img{
-    width: 300px;
+    width: 350px;
  }
 
 
@@ -1043,7 +1041,7 @@ nav .desktop-nav li a:hover{
  }
 
  .category-3 .category-3-logo img{
-    width: 200px;
+    width: 170px;
     margin-top: 30px;
  }
 
@@ -1086,7 +1084,7 @@ nav .desktop-nav li a:hover{
  }
 
  .category-4 .category-4-logo img{
-    width: 200px;
+    width: 170px;
     margin-top: 30px;
  }
 
@@ -1115,10 +1113,13 @@ nav .desktop-nav li a:hover{
 
 
  .category-4 .category-4-image img{
-    width: 520px;
+    width: 350px;
  }
 
 
+
+
+ 
 
 
  
