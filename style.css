@@ -69,6 +69,10 @@ nav .desktop-nav li a:hover{
     font-weight: 600;
 }
 
+/* .desktop-nav .link-logo img{
+    width: 200px;
+} */
+
 .link-bag{
     background: url('images/bag-icon.svg');
     display: block;
@@ -709,8 +713,12 @@ nav .desktop-nav li a:hover{
     }
 
     .mobile-nav .link-logo{
-        color:black;
+        color: black;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
     }
+    
     nav .menu-icon .line-1,
     nav .menu-icon .line-2{
         position: absolute;
