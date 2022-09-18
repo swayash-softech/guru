@@ -118,3 +118,100 @@
     padding: .50rem 2rem .50rem 2rem;
     border-radius: 2rem;
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width:768px){
+
+   
+ .learn_more_container{
+   display: flex;
+   margin-top: 0rem;
+   flex-direction: column;
+}
+
+.learn_more_img{
+   width: 100%;
+   height: 400px;
+   border-radius: 1rem;
+   display: flex;
+   align-items: center;
+   margin-top: 0rem;
+   position: sticky;
+   top: 2rem;
+}
+
+.learn_more_img img{
+   display: flex;
+   align-items: center;
+   width: 90%;
+}
+
+
+.storage_text{
+   margin-top: 4rem;
+}
+
+.storage_text p{
+   font-size: 1.7rem;
+   margin-bottom: 2rem;
+}
+
+.storage{
+   display: flex;
+   flex-direction: column;
+}
+.storage_1{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: 1px solid #dedee2;
+   padding: 2rem;
+   border-radius: 1rem; 
+   margin-top: 10px;
+}
+
+.storage_1:hover{
+   border: 1px solid #6ca9e6;
+}
+
+.storage_1 h3{
+   font-weight: 700;
+}
+
+.storage_1 p{
+   color: #89898a;
+}
+
+.mobile_info{
+   margin-top: 4rem;
+}
+
+.mobile_info h3{
+   font-size: 1.7rem;
+   margin-bottom: 2rem;
+   font-weight: 500;
+}
+
+.buy_now{
+   margin-top: 5rem;
+   text-align: center;
+}
+
+ }
