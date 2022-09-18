@@ -68,13 +68,13 @@ nav .desktop-nav li a:hover{
     font-size: 1.2rem;
     font-weight: 600;
 }
-
+ 
 /* .desktop-nav .link-logo img{
     width: 200px;
 } */
 
 .link-bag{
-    background: url('images/bag-icon.svg');
+    background: url('images/contact-icon.svg');
     display: block;
     background-position: center;
     height: 44px;
